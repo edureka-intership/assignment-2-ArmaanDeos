@@ -1,0 +1,605 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin:auto;
+}
+a{
+    text-decoration: none;
+}
+
+/* header css  */
+#Header{
+    height:42px;
+    width: 100%;
+    background-color: #d5a58b;
+    
+}
+
+
+
+#icons{
+    float: left;
+    margin: 0% 2%;
+    color: rgb(19, 18, 18);
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+
+#social{
+    float:right;
+}
+
+.slogo{
+    height: 30px;
+    width: 30px;
+    margin-top:3px;
+    color: white;
+    margin-right: 3px;
+    border: 1px solid white;
+    border-radius: 42%;
+    
+}
+/* Search Css  */
+#Search{
+    height:400px;
+    width:100%;
+    background-image: url("../img/bg-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#logo{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(235 227 227 /20%);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 44%;
+    margin-top: 4%;
+    
+}
+
+#logo>span{
+    position: absolute;
+    margin-left: 28%;
+    margin-top: 18%;
+    font-size: 55px;
+    font-weight: bold;
+    color:#1f1a1a;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+#heading{
+    position: absolute;
+    margin-left: 23%;
+    margin-top: 12%;
+    font-size: 47px;
+    color: white;
+}
+
+.dropdown{
+    
+    height: 41px;
+    width: 70%;
+    position: absolute;
+    margin-left: 23%;
+    margin-top: 17%;
+    border-radius: 10%;
+}
+
+.searchicon{
+    position: absolute;
+    margin-left:1%;
+    margin-top: 2%;
+    height:50px;
+    width: 50px;
+}
+
+select{
+    height: 41px;
+    width: 28%;
+    text-align: center;
+    font-size:15px;
+    cursor: pointer;
+    /* border-radius: 10%; */
+}
+
+.resticon{
+    width: 45%;
+}
+
+/* tileComponent css  */
+.tileComponent{
+    height: 300px;
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+
+}
+.component{
+    height: 300px;
+    width:24%;
+    border-radius: 20%;
+    margin-top: 20px;
+    margin-left: 15px;
+    
+    transition: 1s;
+   
+}
+
+
+.tileImg{
+    height: 210px;
+    width:100%;
+    border-radius: 20%;
+    /* border-bottom: 4px solid black;
+    border-left: 4px groove black; */
+    /* box-shadow: 16px 21px 14px grey;
+    transition: 1s; */
+}
+
+.tileImg:hover{
+    box-shadow:10px 17px 9px grey ;
+}
+
+.tileTxt{
+    height: 50px;
+    width:100%;
+    text-align: center;
+}
+
+.tileTxt:hover{
+    color:orangered;
+    font-size:30px;
+    box-shadow: 16px 21px 14px grey;
+    transition: 1s;
+}
+
+
+    
+/* Popular Resturant  */
+#Popular{
+    height: 500px;
+    width: 100%;
+    margin: 0px auto;
+    background-color: #d7e0f5;
+}
+
+#text-heading{
+    color: olive;
+    margin: 2px 3px;
+    font-size: 35px;
+    text-align: center;
+    font-style: italic;
+}
+
+#text{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.continer{
+    display: flex;
+}
+
+.containerBox1{
+    height: 350px;
+    width: 24%;
+    margin-left: 10px;
+    display: inline-block;
+    background:url('../img/drinks1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5%;
+    
+}
+
+.containerBox1:hover{
+    transform:scale(1.2);
+    z-index: 1;
+}
+
+
+.text{
+    height: 70px;
+    margin-top: 70%;
+    width: 99%;
+    display: block;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn{
+    height: 35px;
+    width: 45%;
+    background-color: orangered;
+    margin-top: 7px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5%;
+    font-size: 15px;
+}
+.containerBox2{
+    height: 350px;
+    width: 24%;
+    margin: 3px;
+    /* border: 2px solid black; */
+    display: inline-block;
+    background:url('../img/drinks2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5%;
+}
+
+.containerBox2:hover{
+    transform:scale(1.2);
+    z-index: 1;
+}
+.containerBox3{
+    height: 350px;
+    width: 24%;
+    margin: 3px;
+    /* border: 2px solid black; */
+    display: inline-block;
+    background:url('../img/drinks3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5%;
+}
+
+.containerBox3:hover{
+    transform:scale(1.2);
+    z-index: 1;
+}
+.containerBox4{
+    height: 350px;
+    width: 24%;
+    margin: 3px;
+    /* border: 2px solid black; */
+    display: inline-block;
+    background:url('../img/drinks4.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5%;
+}
+
+.containerBox4:hover{
+    transform:scale(1.2);
+    z-index: 1;
+}
+
+
+
+
+/*quickSearch Css*/
+#quickSearch{
+    width: 80%;
+    height: 95vh;
+    margin-left: 10%;
+    margin-top: 4%;
+    
+    
+}
+
+
+#quickHeading{
+    font-size: 30px;
+    color: #f24600;
+    font-weight: bold;
+    margin-left: 2%;
+}
+
+#quickSubHeading{
+    font-size: 20px;
+    color: grey;
+    display: block;
+    line-height:35px;
+    margin-left: 2%;
+}
+
+.tileContainer{
+    height: 200px;
+    width:300px;
+    box-shadow: 16px 21px 14px grey;
+    transition: 1s;
+   display:inline-block;
+   margin-left: 2%;
+   margin-top: 2%;
+   
+
+}
+
+.tileComponent1{
+    height:200px;
+    width: 50%;
+    float: left;
+    border-radius: 10%;
+}
+
+.tileComponent1 > img{
+    height: 200px;
+    width: 100%;
+
+}
+
+
+.tileContainer:hover{
+    transform:scale(1.1);
+    z-index: 1;
+}
+.tileComponent2{
+    height:200px;
+    width: 50%;
+    float: left;
+}
+
+.ComponentHeading{
+    margin-top: 30%;
+    margin-left: 10%;
+    text-align: center;
+    font-size: 30px;
+    color:#f24600;
+    font-weight: bold;
+    
+
+}
+
+.ComponentHeading > a{
+    color:#f24600;
+}
+
+.SubComponentHeading{
+    margin-top: 5%;
+    margin-left: 10%;
+    text-align: center;
+    color:grey;
+    
+}
+
+
+
+/* footer  */
+#footer{
+    width: 100%;
+    height: 100px;
+    background-color:rgb(248, 243, 184);
+}
+
+#footText{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    height: 25px;
+    line-height: -1px;
+}
+
+.footDiv{
+    /* height: 60px; */
+    width: 33%;
+    border-right: 2px solid black;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Media Queries */
+
+@media screen and (max-width:1400px){
+   
+    #logo {
+            margin-left: 47%;
+    }
+}
+
+@media screen and (max-width:1220px){
+    
+    .tileContainer {
+        height: 156px;
+        width: 400px;
+    }
+    
+.tileComponent1 > img {
+    height: 155px;
+    width: 100%;
+}
+
+@media screen and (max-width:1075px){
+   
+    #heading {
+        margin-left: 17%;
+        margin-top: 14%;
+    }
+    
+    .dropdown {
+        margin-left: 26%;
+        margin-top: 20%;
+    }
+    .tileComponent {
+            width: 90%;
+    }
+    .container{
+        display: flex;
+    }
+    .text{
+        margin-top: 85%;
+        font-size: 19px;
+    }
+    .containerBox1:hover {
+        transform: scale(0.8);
+        z-index: 1;
+    }
+    .containerBox2:hover {
+        transform: scale(0.8);
+        z-index: 1;
+    }
+    .containerBox3:hover {
+        transform: scale(0.8);
+        z-index: 1;
+    }
+    .containerBox4:hover {
+        transform: scale(0.8);
+        z-index: 1;
+    }
+    .tileContainer {
+        height: 156px;
+        width: 360px;
+    }
+    
+}
+
+@media screen and (max-width:910px) {
+   
+    #heading {
+        margin-left: 10%;
+        margin-top: 15%;
+    }
+    .dropdown {
+        margin-left: 25%;
+        margin-top: 22%;
+    }
+    .text {
+        margin-top: 105%;
+        font-size: 15px;
+    }
+    .tileContainer {
+        height: 156px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:807px){
+   
+    #heading {
+        margin-left: 11%;
+        margin-top: 18%;
+        font-size: 40px;
+    }
+    .dropdown {
+        margin-left: 25%;
+        margin-top: 27%;
+    }
+
+    .tileComponent {
+        height: 230px;
+    }
+    .tileImg {
+        height: 150px;
+        width: 100%;
+    }
+    .text {
+        margin-top: 129%;
+        font-size: 13px;
+    }
+    
+}
+
+@media screen and (max-width:807px){
+    
+
+    #heading {
+        margin-left: 13%;
+        margin-top: 18%;
+        font-size: 43px;
+    }
+    .dropdown {
+    margin-left: 9%;
+    margin-top: 31%;
+}
+    .text {
+        margin-top: 145%;
+        font-size: 13px;
+    }
+
+    .btn {
+    height: 35px;
+    width: 74%;
+    }
+}
+
+@media screen and (max-width:818px){
+    .dropdown {
+        margin-left: 10%;
+        margin-top: 29%;
+    }
+}
+
+@media screen and (max-width:771px){
+    .dropdown {
+        margin-left: 13%;
+        margin-top: 33%;
+    }
+    #quickSearch {
+        width: 80%;
+        height: 172vh;
+        margin-left: 17%;
+       
+    }
+}
+
+
+@media screen and (max-width:500px){
+  
+    #Search {
+        height: 280px;
+        width: 100%;
+    }
+    #heading {
+        margin-left: 11%;
+        margin-top: 25%;
+        font-size: 38px;
+    }
+    .dropdown {
+        margin-left: 10%;
+        margin-top: 46%;
+        display:flex;
+
+    }
+    select{
+        width: 48%;
+        font-size: 12px;
+    }
+    .resticon {
+        width: 55%;
+    }
+    .tileImg {
+        height: 109px;
+        width: 100%;
+    }
+    .tileTxt {
+        height: 6px;
+        width: 100%;
+        text-align: center;
+        font-size: 21px;
+    }
+    .text {
+        margin-top: 217%;
+        font-size: 13px;
+    }
+    #quickSearch {
+        width: 80%;
+        height: 169vh;
+        margin-left: 13%;
+        margin-top: 4%;
+    }
+    .footDiv {
+            width: 32%;
+    }
+}
+
